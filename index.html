@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparador de Números</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Comparador de Números</h1>
+    <form id="form">
+      <label for="fileInput">Selecione o arquivo TXT:</label>
+      <input type="file" id="fileInput" accept=".txt" required>
+      
+      <label for="sequenceInput">Digite os números para comparar (separados por espaço):</label>
+      <input type="text" id="sequenceInput" placeholder="Exemplo: 7 23 39 50 57 60" required>
+      
+      <button type="submit">Comparar</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
